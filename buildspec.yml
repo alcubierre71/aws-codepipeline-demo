@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       # Use yum instead of apt-get for Amazon Linux and install dependencies
-      - echo "Running phase: INSTALL"
+      - echo "Running phase - INSTALL"
       - yum update -y
       - yum install -y docker
       # Add HashiCorp's official Linux repository and install Packer
