@@ -28,7 +28,7 @@ phases:
       - packer build packer.pkr.hcl
       # Build and push Docker image to Docker Hub
       # - docker build -t s3cloudhub/my-app:latest .
-      - docker push s3cloudhub/my-app:latest
+      - docker push alcaudon71/my-app:latest
 
   post_build:
     commands:
